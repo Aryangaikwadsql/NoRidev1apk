@@ -1,5 +1,7 @@
 # NoRide Mumbai
 
+![NoRide Logo](./public/logonew1.png)
+
 A civic complaint platform empowering Mumbai citizens to report auto-rickshaw driver misconduct with anonymous reporting, map-based visualization, fake report detection, and RTO integration.
 
 ## Features
@@ -38,8 +40,8 @@ A civic complaint platform empowering Mumbai citizens to report auto-rickshaw dr
 
 1. Clone the repository
 \`\`\`bash
-git clone https://github.com/yourusername/ricksha-watch-mumbai.git
-cd ricksha-watch-mumbai
+git clone https://github.com/Aryangaikwadsql/NoRidev1apk.git
+cd NoRidev1apk
 \`\`\`
 
 2. Install dependencies
@@ -186,7 +188,7 @@ MIT License - see LICENSE file
 ## Support
 
 For issues or questions:
-- GitHub Issues: [Create issue](https://github.com/yourusername/ricksha-watch-mumbai/issues)
+- GitHub Issues: [Create issue](https://github.com/Aryangaikwadsql/NoRidev1apk/issues)
 - Email: support@noride.in
 
 ## Roadmap
@@ -199,23 +201,3 @@ For issues or questions:
 ---
 
 **Made with ❤️ for Mumbai's safety**
-\`\`\`
-
-```env.example file=".env.example"
-# Supabase Configuration
-NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_key_here
-SUPABASE_SERVICE_ROLE_KEY=your_service_role_key_here
-
-# Optional: Nominatim Geocoding (free, no key needed)
-NEXT_PUBLIC_NOMINATIM_URL=https://nominatim.openstreetmap.org
-
-# Optional: IP Geolocation API
-IPAPI_KEY=your_ipapi_key_here
-
-# Optional: Image Processing
-NEXT_PUBLIC_MAX_IMAGE_SIZE=5242880
-
-# App Configuration
-NEXT_PUBLIC_APP_NAME=NoRide Mumbai
-NEXT_PUBLIC_APP_URL=http://localhost:3000
